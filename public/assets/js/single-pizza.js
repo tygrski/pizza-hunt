@@ -118,7 +118,7 @@ function handleNewCommentSubmit(event) {
     })
     .then(commentResponse => {
       console.log(commentResponse);
-      // location.reload();
+      location.reload();
     })
     .catch(err => {
       console.log(err);
